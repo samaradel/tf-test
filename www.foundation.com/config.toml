@@ -190,5 +190,5 @@ paginate = 6
     subtitle = ""
 
 [params.recent_posts]
-    enable = false
+    enable = true
     title = "Related News"

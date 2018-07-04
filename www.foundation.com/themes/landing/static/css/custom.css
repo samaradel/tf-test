@@ -139,6 +139,10 @@ body {
     margin: 20px auto;
 }
 
+.news-aside .row {
+    display: block;
+}
+
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     p {
         font-size: 100%;

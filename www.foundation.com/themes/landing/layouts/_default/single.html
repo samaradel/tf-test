@@ -23,18 +23,25 @@
                             <h1 class="mt-2h">{{ .Params.header }}</h1>
 
                             <div class="news-details mb-3">
-                                <i class="fa fa-calendar-o"></i>{{ .Date.Format .Site.Params.date_format }}</a> ∙
+                                <i class="fa fa-calendar-o"></i>
+                                <a href="{{ .Permalink }}">{{ .Date.Format .Site.Params.date_format }}</a> ∙
                             </div>
                             <div class="article-container mb-6"> {{ .Content }}</div>
 
-                            <h4 class="mb-1h mt-0">{{ .Site.Params.recent_posts.title }}</h4>
+                            <!-- <h4 class="mb-1h mt-0">{{ .Site.Params.recent_posts.title }}</h4> -->
                             <div class="row">
-                                <div class="col-12 col-md-6 col-lg-12 mb-2">{{ partial "recent_posts.html" . }}</div>
+                                <div class="col-12 col-md-6 col-lg-12 mb-2"></div>
                             </div>
                         </div>
                     </div>
                     <div class="col-12 col-lg-4">
                         <div class="news-aside">
+                                {{ if .Site.Params.recent_posts.enable }}
+
+                            <h4 class="mb-1h mt-0">{{ .Site.Params.recent_posts.title }}</h4>
+
+                            <div class="row">{{ partial "recent_posts.html" . }}</div>
+                            {{end}}
                             <div class="row mt-4">
                                 <div class="col-12 col-sm-6 col-lg-12 mb-2">
                                     <div class="block-info">
@@ -84,7 +91,16 @@
                                         </div>
                                     </div>
                                 </div>
-                                {{ partial "buy_tokens.html" . }}
+                                <div class="col-12 col-sm-6 col-lg-12 mb-2">
+                                    <div class="block-info">
+                                        <h4 class="mt-0">BUY TOKENS</h4>
+                                        <p class="mb-0h">To buy tokens email us at
+                                            <strong>
+                                                <a class="link-primary" href="mailto:info@threefoldtoken.com">info@threefoldtoken.com</a>
+                                            </strong>
+                                        </p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -92,13 +108,10 @@
 
             </div>
         </div>
-
-
-    </div>
-    {{ partial "footer.html" . }}
-    <script type="text/javascript" src="../../js/jquery.min.js"></script>
-    <script type="text/javascript" src="../../js/main.min.js"></script>
-    <script type="text/javascript" src="../../js/wp-embed.min.js"></script>
+        {{ partial "footer.html" . }}
+        <script type="text/javascript" src="../../js/jquery.min.js"></script>
+        <script type="text/javascript" src="../../js/main.min.js"></script>
+        <script type="text/javascript" src="../../js/wp-embed.min.js"></script>
 </body>
 
 </html>
