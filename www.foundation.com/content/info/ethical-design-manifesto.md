@@ -11,7 +11,7 @@ type = "blog"
 +++
 How to create products in an ethical, human friendly way.
 
-## Respect Human Rights 
+## Respect Human Rights
 
 * Sustainable = green (our world needs some help).
 * Available for all: which also means affordable, not owned by a big company with as purpose greed.
@@ -19,9 +19,9 @@ How to create products in an ethical, human friendly way.
 * Open &amp; interoperable: allow techno to work together in open way.
 * Accessible: easy to access, fast enough, everywhere in the world.
 * Secure &amp; private: your privacy is a right.
-                            
+
 ## Respect Human Effort
-                           
+
 * Make sure technology is reliable and lasts longer (no need to replace in 5 years).
 * Avoid complexity (KIS): no unnecessary complexity.
 * LESS = MORE (do less to achieve more).
