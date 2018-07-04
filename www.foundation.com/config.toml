@@ -59,6 +59,7 @@ paginate = 6
     title = "telegram"
     url = "https://t.me/threefoldtoken"
     icon = "/svg/ic-telegram.svg"
+    Bicon = "/svg/ic-telegram-dark-blue.svg"
     footer = true
     sharethis = false
     network = "facebook"
@@ -67,6 +68,7 @@ paginate = 6
     title = "twitter"
     url = "https://twitter.com/threefold_fdn"
     icon = "/svg/ic-twitter.svg"
+    Bicon = "/svg/ic-twitter-dark-blue.svg"
     footer = true
     sharethis = false
     network = "twitter"
@@ -75,6 +77,7 @@ paginate = 6
     title = "youtube"
     url = "https://www.youtube.com/threefoldfoundation"
     icon = "/svg/ic-youtube.svg"
+    Bicon = "/svg/ic-youtube-dark-blue.svg"
     footer = true
     sharethis = false
     network = "youtube"
@@ -83,6 +86,7 @@ paginate = 6
     title = "linkedin"
     url = "https://www.linkedin.com/company/13594159/"
     icon = "/svg/ic-linkedin.svg"
+    Bicon = "/svg/ic-linkedin-dark-blue.svg"
     footer = true
     sharethis = false
     network = "linkedin"
@@ -91,6 +95,7 @@ paginate = 6
     title = "facebook"
     url = "https://www.facebook.com/ThreeFoldCommunity"
     icon = "/svg/ic-facebook.svg"
+    Bicon = "/svg/ic-facebook-dark-blue.svg"
     footer = true
     sharethis = false
     network = "facebook"
@@ -99,6 +104,7 @@ paginate = 6
     title = "github"
     url = "https://threefoldfoundation.github.io/info_tokens/"
     icon = "/svg/ic-github.svg"
+    Bicon = "/svg/ic-github-dark-blue.svg"
     footer = true
     sharethis = false
     network = "github"
@@ -155,40 +161,17 @@ paginate = 6
     enable = true
     title = "BUY TOKENS"
     intro = "To buy tokens email us at"
-    # All carousel items are defined in their own files. You can find example items
-    # at 'exampleSite/data/carousel'.
-    # For more informtion take a look at the README.
 
-[params.features]
-    enable = false
-    # All features are defined in their own files. You can find example items
-    # at 'exampleSite/data/features'.
-    # For more informtion take a look at the README.
+[params.join]
+    enable = true
 
-[params.testimonials]
-    enable = false
-    # All testimonials are defined in their own files. You can find example items
-    # at 'exampleSite/data/testimonials'.
-    # For more informtion take a look at the README.
-    title = "/"
-    subtitle = "/"
-
-[params.see_more]
-    enable = false
-    icon = "fa fa-file-code-o"
-    title = "Do you want to see more?"
-    subtitle = "We have prepared for you more than 40 different HTML pages, including 5 variations of homepage."
-    link_url = "#"
-    link_text = "Check other homepages"
-
-[params.clients]
-    enable = false
-    # All clients are defined in their own files. You can find example items
-    # at 'exampleSite/data/clients'.
-    # For more informtion take a look at the README.
-    title = "Our Clients"
-    subtitle = ""
-
+[params.whitepaper]
+    enable = true
+    title = "Threefold Whitepaper"
+    subtitle = "This new Whitepaper introduces two new Research breakthroughs"
+    url = "https://docs.google.com/document/d/16C3EKKBaK4_DyWFUcvdLnvDyN57h77e0Q1mWMpZL5vc/edit"
+    urlTxt = "View Whitepaper"
+    
 [params.recent_posts]
     enable = true
     title = "Related News"

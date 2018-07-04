@@ -36,71 +36,51 @@
                     </div>
                     <div class="col-12 col-lg-4">
                         <div class="news-aside">
-                                {{ if .Site.Params.recent_posts.enable }}
+                            {{ if .Site.Params.recent_posts.enable }}
 
                             <h4 class="mb-1h mt-0">{{ .Site.Params.recent_posts.title }}</h4>
 
                             <div class="row">{{ partial "recent_posts.html" . }}</div>
                             {{end}}
                             <div class="row mt-4">
+                                    {{ if .Site.Params.whitepaper.enable }}
                                 <div class="col-12 col-sm-6 col-lg-12 mb-2">
                                     <div class="block-info">
-                                        <h4 class="mt-0">Threefold Whitepaper</h4>
-                                        <p>This new Whitepaper introduces two new Research breakthroughs</p>
-                                        <a class="btn btn-block mb-1 mt-2" href="https://docs.google.com/document/d/16C3EKKBaK4_DyWFUcvdLnvDyN57h77e0Q1mWMpZL5vc/edit">View Whitepaper</a>
+                                        <h4 class="mt-0">{{ .Site.Params.whitepaper.title }}</h4>
+                                        <p>{{ .Site.Params.whitepaper.subtitle }}</p>
+                                        <a class="btn btn-block mb-1 mt-2" href="{{ .Site.Params.whitepaper.url }}">{{ .Site.Params.whitepaper.urlTxt }}</a>
                                     </div>
                                 </div>
+                                {{end}}
+                                {{ if .Site.Params.join.enable }}
                                 <div class="col-12 col-sm-6 col-lg-12 mb-2">
                                     <div class="block-info">
+
                                         <h4 class="mt-0 mb-3">JOIN US</h4>
                                         <div class="mx-n1 my-n0h d-flex flex-wrap">
+                                                {{ range .Site.Params.social }}
 
-
-
-
-                                            <a class="mx-1 my-0h" href="https://t.me/threefoldtoken" target="_blank">
-                                                <img width="30" src="../../svg/ic-telegram-dark-blue.svg" alt="telegram">
+                                            <a class="mx-1 my-0h" href="{{ .url }}" target="_blank">
+                                                <img width="30" src="{{ .Bicon }}" alt="{{ .title }}">
                                             </a>
 
-
-                                            <a class="mx-1 my-0h" href="https://twitter.com/threefold_fdn" target="_blank">
-                                                <img width="30" src="../../svg/ic-twitter-dark-blue.svg" alt="twitter">
-                                            </a>
-
-
-                                            <a class="mx-1 my-0h" href="https://www.youtube.com/threefoldfoundation" target="_blank">
-                                                <img width="30" src="../../svg/ic-youtube-dark-blue.svg" alt="youtube">
-                                            </a>
-
-
-
-
-                                            <a class="mx-1 my-0h" href="https://www.linkedin.com/company/13594159/" target="_blank">
-                                                <img width="30" src="../../svg/ic-linkedin-dark-blue.svg" alt="linkedin">
-                                            </a>
-
-
-                                            <a class="mx-1 my-0h" href="https://www.facebook.com/ThreeFoldCommunity" target="_blank">
-                                                <img width="30" src="../../svg/ic-facebook-dark-blue.svg" alt="facebook">
-                                            </a>
-
-
-                                            <a class="mx-1 my-0h" href="https://threefoldfoundation.github.io/info_tokens/" target="_blank">
-                                                <img width="30" src="../../svg/ic-github-dark-blue.svg" alt="github">
-                                            </a>
+                                            {{end}}
                                         </div>
                                     </div>
                                 </div>
+                                {{end}}
+                                {{ if .Site.Params.tokens.enable }}
                                 <div class="col-12 col-sm-6 col-lg-12 mb-2">
                                     <div class="block-info">
-                                        <h4 class="mt-0">BUY TOKENS</h4>
-                                        <p class="mb-0h">To buy tokens email us at
+                                        <h4 class="mt-0">{{ .Site.Params.tokens.title }}</h4>
+                                        <p class="mb-0h">{{ .Site.Params.tokens.intro }}
                                             <strong>
-                                                <a class="link-primary" href="mailto:info@threefoldtoken.com">info@threefoldtoken.com</a>
+                                                <a class="link-primary" href="mailto:{{ .Site.Params.email }}">{{ .Site.Params.email }}</a>
                                             </strong>
                                         </p>
                                     </div>
                                 </div>
+                                {{end}}
                             </div>
                         </div>
                     </div>
