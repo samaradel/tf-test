@@ -2,10 +2,11 @@
 # Don't Remove Title!
 title =  "info"
 date = "2018-07-02T12:54:46+02:00"
-img = "../img/internet-is-growing-480x320.jpg"
+img = "../../../img/internet-is-growing-480x320.jpg"
 categories = ["uncategorized"]
 header = "Internet is growing wild"
 desc = "Internet is growing in a way which is not sustainable, there needs to be an alternative"
+cover_img ="../img/internet-is-growing-480x320.jpg"
 type = "blog"
 +++
 
@@ -14,17 +15,17 @@ Internet is growing in a way which is not sustainable, there needs to be an alte
 ### internet capacity needs to become local
 
 Big majority of users in the world connect to servers not being present in their region and as such experience higher cost &amp; low performance.
-                            
+
 According to a study of&nbsp;[datacentermap.com](http://www.datacentermap.com/) &nbsp;80% of the datacenters of internet service providers are based in the US and Europe. The rest of the world has scarce resources dotted around territories.
 
 As a consequence most internet users use internet based services running on infrastructure which is located far away from their physical point of presence and most likely outside their country borders. This decreases the general end user experience (latency) but also adds unnecessary costs for actually transporting information back and forth and for enterprises it adds legislation and compliance headaches.
 
 ### need for education
-                      
+
 On a humanitarian level the opportunities for creativity, learning and development of new generations is influenced in a negative way by not having access to good, affordable internet services keeping the status quo between the developed and less developed world. The United Nations have declared internet access a global&nbsp;[human right](http://www.businessinsider.com/un-says-internet-access-is-a-human-right-2016-7?international=true&amp;r=US&amp;IR=T). See UN resolution&nbsp;[here](https://www.article19.org/data/files/Internet_Statement_Adopted.pdf).
 
 ### more performance required
-                            
+
 Compute &amp; Storage vendors create poor performing solutions. There has been now year on year improvements of hardware following&nbsp;[Moore’s law](https://en.wikipedia.org/wiki/Moore%27s_law). While this has allowed ThreeFold to progress and innovate it has also lead to software developers taking these advances for granted and cutting corners where they could creating sub optimals code and allowing software components to be layered on top of each other to achieve certain functionality of behavior.
 
 The inefficiencies have now lead to a situation where organically grown IT architecture are immensely complex and use a variety of components from different soft and hardware vendors integrates by a so called integrator. The overall effort and cost involved to create, operate and maintain such architectures is growing continuously and requiring an ever increasing budget and resourcing to continue.
