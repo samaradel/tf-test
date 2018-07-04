@@ -2,7 +2,7 @@
 title= "info"
 date= "2018-07-02T14:24:00+02:00"
 header = "Ethical Design Manifesto"
-img = "../img/ethical-product-design-480x320.jpg"
+img = "../../../img/ethical-product-design-480x320.jpg"
 categories = ["uncategorized"]
 desc = "How to create products in an ethical, human friendly way."
 cover_img ="../img/ethical-product-design.jpg"
