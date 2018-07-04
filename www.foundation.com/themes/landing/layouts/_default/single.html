@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+{{ partial "head.html" . }}
+
+<body class="single single-page single-page-sample-page frontpage">
+
+    <div id="all">
+
+        <div class="layout-header layout-header-fixed">
+
+            {{ partial "nav.html" . }}
+
+        </div>
+
+        <div class="layout-content">
+            <div class="layout-container mt-4">
+                <div class="row">
+                    <div class="col-12 col-lg-8">
+                        <div class="news-content">
+                            <div class="cover-image" style="background-image: url(../{{ .Params.cover_img }})"></div>
+
+                            <h1 class="mt-2h">{{ .Params.header }}</h1>
+
+                            <div class="news-details mb-3">
+                                <i class="fa fa-calendar-o"></i>{{ .Date.Format .Site.Params.date_format }}</a> ∙
+                            </div>
+                            <div class="article-container mb-6"> {{ .Content }}</div>
+
+                            <h4 class="mb-1h mt-0">{{ .Site.Params.recent_posts.title }}</h4>
+                            <div class="row">
+                                <div class="col-12 col-md-6 col-lg-12 mb-2">{{ partial "recent_posts.html" . }}</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4">
+                        <div class="news-aside">
+                            <div class="row mt-4">
+                                <div class="col-12 col-sm-6 col-lg-12 mb-2">
+                                    <div class="block-info">
+                                        <h4 class="mt-0">Threefold Whitepaper</h4>
+                                        <p>This new Whitepaper introduces two new Research breakthroughs</p>
+                                        <a class="btn btn-block mb-1 mt-2" href="https://docs.google.com/document/d/16C3EKKBaK4_DyWFUcvdLnvDyN57h77e0Q1mWMpZL5vc/edit">View Whitepaper</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-6 col-lg-12 mb-2">
+                                    <div class="block-info">
+                                        <h4 class="mt-0 mb-3">JOIN US</h4>
+                                        <div class="mx-n1 my-n0h d-flex flex-wrap">
+
+
+
+
+                                            <a class="mx-1 my-0h" href="https://t.me/threefoldtoken" target="_blank">
+                                                <img width="30" src="../../svg/ic-telegram-dark-blue.svg" alt="telegram">
+                                            </a>
+
+
+                                            <a class="mx-1 my-0h" href="https://twitter.com/threefold_fdn" target="_blank">
+                                                <img width="30" src="../../svg/ic-twitter-dark-blue.svg" alt="twitter">
+                                            </a>
+
+
+                                            <a class="mx-1 my-0h" href="https://www.youtube.com/threefoldfoundation" target="_blank">
+                                                <img width="30" src="../../svg/ic-youtube-dark-blue.svg" alt="youtube">
+                                            </a>
+
+
+
+
+                                            <a class="mx-1 my-0h" href="https://www.linkedin.com/company/13594159/" target="_blank">
+                                                <img width="30" src="../../svg/ic-linkedin-dark-blue.svg" alt="linkedin">
+                                            </a>
+
+
+                                            <a class="mx-1 my-0h" href="https://www.facebook.com/ThreeFoldCommunity" target="_blank">
+                                                <img width="30" src="../../svg/ic-facebook-dark-blue.svg" alt="facebook">
+                                            </a>
+
+
+                                            <a class="mx-1 my-0h" href="https://threefoldfoundation.github.io/info_tokens/" target="_blank">
+                                                <img width="30" src="../../svg/ic-github-dark-blue.svg" alt="github">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                {{ partial "buy_tokens.html" . }}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+    </div>
+    {{ partial "footer.html" . }}
+    <script type="text/javascript" src="../../js/jquery.min.js"></script>
+    <script type="text/javascript" src="../../js/main.min.js"></script>
+    <script type="text/javascript" src="../../js/wp-embed.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Footer on ThreeFold Foundation</title>
+    <link>/footer/</link>
+    <description>Recent content in Footer on ThreeFold Foundation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright © 2017, ThreeFold Foundation all rights reserved.</copyright>
+    
+	<atom:link href="/footer/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>footer</title>
+      <link>/footer/footer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/footer/footer/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
