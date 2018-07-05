@@ -12,9 +12,6 @@ tfGrid_txt = "ThreeFold Grid"
 tfGrid_url = "https://threefoldfoundation.github.io/info_grid/#/"
 tfGrid_img = "/svg/ic-f-grid.svg"
 
-tfTech_txt = "ThreeFold Tech"
-tfTech_url = "https://threefoldfoundation.github.io/info_tech/#/"
-tfTech_img = "/svg/ic-f-tech.svg"
 
 tfFoundation_txt = "ThreeFold foundation"
 tfFoundation_url = "https://threefoldfoundation.github.io/info_foundation/#/"

@@ -2,7 +2,7 @@
 title = "info"
 date = "2018-07-02T14:19:39+02:00"
 header = "AirBnB for Internet Capacity"
-img = "../img/airbnb-for-internet-capacity-480x320.jpg"
+img = "../../../img/airbnb-for-internet-capacity-480x320.jpg"
 categories = ["uncategorized"]
 desc = "Everyone should be able to deliver capacity to the new neutral internet."
 cover_img = "../img/airbnb-for-internet-capacity.jpg"
