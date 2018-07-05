@@ -164,6 +164,7 @@ paginate = 6
 
 [params.join]
     enable = true
+    title = "JOIN US"
 
 [params.whitepaper]
     enable = true
@@ -172,6 +173,6 @@ paginate = 6
     url = "https://docs.google.com/document/d/16C3EKKBaK4_DyWFUcvdLnvDyN57h77e0Q1mWMpZL5vc/edit"
     urlTxt = "View Whitepaper"
     
-[params.recent_posts]
+[params.video]
     enable = true
-    title = "Related News"
+    url = "https://www.youtube.com/embed/fucXM2L2cTA"

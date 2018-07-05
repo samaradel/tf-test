@@ -9136,9 +9136,6 @@ html.noscroll {
     }
 }
 
-.layout-inner-content{
-  margin-bottom: 80px;
-}
 @media (min-width:992px) {
     html {
         font-size: 16px;
@@ -9252,9 +9249,7 @@ small {
     max-width: 780px;
     line-height: 1.33;
     font-size: 18px;
-    color: #555;
-    letter-spacing: 0.3px;
-
+    color: #555
 }
 
 .link,

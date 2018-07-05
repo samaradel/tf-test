@@ -56,12 +56,12 @@
                                 <div class="col-12 col-sm-6 col-lg-12 mb-2">
                                     <div class="block-info">
 
-                                        <h4 class="mt-0 mb-3">JOIN US</h4>
+                                        <h4 class="mt-0 mb-3">{{ .Site.Params.join.title }}</h4>
                                         <div class="mx-n1 my-n0h d-flex flex-wrap">
                                                 {{ range .Site.Params.social }}
 
-                                            <a class="mx-1 my-0h" href="{{ .url }}" target="_blank">
-                                                <img width="30" src="{{ .Bicon }}" alt="{{ .title }}">
+                                            <a class="mx-1 my-0h" href="{{ .Site.Params.social.url }}" target="_blank">
+                                                <img width="30" src="{{ .Site.Params.social.Bicon }}" alt="{{ .Site.Params.social.title }}">
                                             </a>
 
                                             {{end}}
@@ -89,9 +89,7 @@
             </div>
         </div>
         {{ partial "footer.html" . }}
-        <script type="text/javascript" src="../../js/jquery.min.js"></script>
-        <script type="text/javascript" src="../../js/main.min.js"></script>
-        <script type="text/javascript" src="../../js/wp-embed.min.js"></script>
+        {{ partial "scripts.html" . }}
 </body>
 
 </html>
