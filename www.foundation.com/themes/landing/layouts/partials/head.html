@@ -1,22 +1,38 @@
 <head>
+  <!-- GTM scripts -->
+      <script>
+      (function(w, d, s, l, i) {
+          w[l] = w[l] || [];
+          w[l].push({
+              'gtm.start': new Date().getTime(),
+              event: 'gtm.js'
+          });
+          var f = d.getElementsByTagName(s)[0],
+              j = d.createElement(s),
+              dl = l != 'dataLayer' ? '&l=' + l : '';
+          j.async = true;
+          j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+          f.parentNode.insertBefore(j, f);
+      })(window, document, 'script', 'dataLayer', 'GTM-58B4KK2');
+    </script>
   <meta charset="utf-8">
   <meta name="robots" content="all,follow">
   <meta name="googlebot" content="index,follow,snippet,archive">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{{ .Title }}</title>
-  <meta name="author" content="{{ .Site.Author.name }}" /> 
+  <meta name="author" content="{{ .Site.Author.name }}" />
 
   {{ if .Keywords }}
-  <meta name="keywords" content="{{ delimit .Keywords " , " }}"> 
+  <meta name="keywords" content="{{ delimit .Keywords " , " }}">
   {{ else if .Site.Params.DefaultKeywords }}
-  <meta name="keywords" content="{{ delimit .Site.Params.DefaultKeywords " , " }}"> 
-  {{ end }} 
-  
+  <meta name="keywords" content="{{ delimit .Site.Params.DefaultKeywords " , " }}">
+  {{ end }}
+
   {{ if .Description }}
-  <meta name="description" content="{{ .Description }}"> 
+  <meta name="description" content="{{ .Description }}">
   {{ else if .Site.Params.DefaultDescription }}
-  <meta name="description" content="{{ .Site.Params.DefaultDescription }}"> 
-  {{ end }} 
+  <meta name="description" content="{{ .Site.Params.DefaultDescription }}">
+  {{ end }}
   {{ .Hugo.Generator }}
 
   <!-- Bootstrap -->
@@ -53,4 +69,18 @@
 
   <!-- Intercom -->
   <script src="{{ .Site.BaseURL }}js/intercom-config.js"></script>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-100065546-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-100065546-1');
+    </script>
+
 </head>
