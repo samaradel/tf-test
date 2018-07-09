@@ -63,8 +63,8 @@
                                         <div class="mx-n1 my-n0h d-flex flex-wrap">
                                                 {{ range .Site.Params.social }}
 
-                                            <a class="mx-1 my-0h" href="{{ .Site.Params.social.url }}" target="_blank">
-                                                <img width="30" src="{{ .Site.Params.social.Bicon }}" alt="{{ .Site.Params.social.title }}">
+                                            <a class="mx-1 my-0h" href="{{ .url }}" target="_blank">
+                                                <img width="30" src="{{ .Bicon }}" alt="{{ .title }}">
                                             </a>
 
                                             {{end}}

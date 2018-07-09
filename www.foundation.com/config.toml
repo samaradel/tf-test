@@ -177,6 +177,9 @@ paginate = 6
     enable = true
     url = "https://www.youtube.com/embed/fucXM2L2cTA"
 
+[params.recent_posts]
+    enable = true
+
 [blackfriday]
   angledQuotes = true
   extensions = ["hardLineBreak"]
