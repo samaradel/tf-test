@@ -20,35 +20,47 @@ benefits_row1_header = "Value-Backed"
 benefits_row1_text = "100% of ThreeFold Tokens are asset backed by the fastest growing commodity in the world, the internet. Tokens only get generated when servers get connected to the internet. Each token is at least 6 times undervalued compared to the commercial value of the newly connected capacity."
 
 benefits_row2_img = "/svg/ic-benefits-02.svg"
-benefits_row2_header = "Reliable Secure"
-benefits_row2_text = "100% of ThreeFold Tokens are asset backed by the fastest growing commodity in the world, the internet. Tokens only get generated when servers get connected to the internet. Each token is at least 6 times undervalued compared to the commercial value of the newly connected capacity."
+benefits_row2_header = "Reliable & Secure"
+benefits_row2_text = "The ThreeFold blockchain does not suffer from the “ Blockchain Dilemma Problem”. Our blockchain is fast, scalable and secure at the same time, which is to date not possible with other blockchain technologies. This is a major breakthrough"
 
 benefits_row3_img = "/svg/ic-benefits-05.svg"
 benefits_row3_header = "Good For The Planet"
 benefits_row3_text = "The ThreeFold Token is a result of mining useful internet capacity. We call this farming. Our blockchain is 100% energy neutral. The produced internet capacity uses up to 10 times less energy, it removes the need for centralized power hungry data centers."
 
+
+
+
+#setp1
+
 tokens_step1 = "Download Wallet"
 tokens_step1_subheader = "Your wallet is the software you use to send, receive and store TF Tokens."
+
 step1_row1_img = "/svg/ic-chaincore.svg"
 step1_row1_header = "TFChain Core"
 step1_row1_text = "Core Client for ThreeFold Blockchain that can be run on Windows, OSX, Linux in a preconfigured docker container."
+step1_row1_wiki_how_to_link = "https://threefoldfoundation.github.io/info_tokens/#/technology/command_line_wallet"
 step1_row1_buttonLink = "https://github.com/threefoldfoundation/tfchain"
 step1_row1_subtext = "Only available as a Command line interface. Best suitable for more technical users, who want full control and flexibility."
 
 step1_row2_img = "/svg/ic-applelogo.svg"
 step1_row2_header = "iOS wallet"
 step1_row2_text = "A wallet that puts you in control of your funds and runs on your iPhone."
+step1_row2_wiki_how_to_link = "https://threefoldfoundation.github.io/info_tokens/#/threefold_app"
 step1_row2_buttonLink = "https://itunes.apple.com/app/id1276543091"
 
 step1_row3_img = "/svg/ic-androidlogo.svg"
 step1_row3_header = "Android wallet"
 step1_row3_text = "Wallet that puts you in control of your funds and runs on your Android device."
+step1_row3_wiki_how_to_link = "https://threefoldfoundation.github.io/info_tokens/#/threefold_app"
 step1_row3_buttonLink = "https://play.google.com/store/apps/details?id=com.mobicage.rogerthat.em.be.threefold.token"
 
 
 
+#setp2
+
 tokens_step2 = "Read our tips, manuals and how-to's"
 tokens_step2_subheader = "and learn how to go from fiat to ThreeFold Tokens"
+
 step2_row1_img = ""
 step2_row1_header = "Buy Bitcoin"
 step2_row1_text = "There are several ways to obtaining Bitcoin, we listed some of those ways on our Wiki"
@@ -60,7 +72,13 @@ step2_row2_text = "We made an easy and digestable manual that explains how to ex
 step2_row2_buttonLink = "https://threefoldfoundation.github.io/info_tokens/#/how_to_buy/btc-alpha?id=using-btc-alpha"
 
 
-tokens_step3 =  "Get ThreeFold Tokens"
+
+
+#setup3
+
+
+tokens_step3 = "Get ThreeFold Tokens"
+
 step3_box1_header = "Exchanges"
 step3_Exchanges_row1_link = "https://btc-alpha.com/"
 step3_Exchanges_row1_header = "BTC-Alpha"
@@ -89,9 +107,9 @@ step3_cooperatives_row2_header = "betterToken"
 step3_cooperatives_row2_text  = "Lochristi, Belgium"
 
 Stats_header = "ThreeFold Stats and Explorers"
-token_price = "$0.09"
+token_price = "$0.10"
 token_capitalization = "$65 million"
-daily_trading_volume = "$20,716"
+daily_trading_volume = "$131,075"
 
 stats_img1 = "/svg/ic-radar.svg"
 stats_text1 = "ThreeFold Radar"
@@ -104,6 +122,12 @@ stats_link2 = "https://explorer.threefoldtoken.com/"
 stats_img3 = "/svg/ic-explorer-2.svg"
 stats_text3 = "Explorer 2"
 stats_link3 = "https://explorer2.threefoldtoken.com/"
+
+
+
+
+#Token Utilization
+
 
 utilization_header = "Token Utilization"
 utilization_text = "Use ThreeFold Token’s in your project or business — “A Fast, Scalable, Secure and Decentralized Digital Currency backed by Internet Capacity”"
