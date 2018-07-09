@@ -851,7 +851,9 @@ a:hover {
   border-bottom-color: #bdbdbd;
 }
 
-.comp-table-header {
+.comp-table-header,
+.w-col-stack th,
+.w-col-stack table tbody tr td strong {
   font-family: 'Barlow Condensed', sans-serif;
   color: #000;
   font-size: 18px;
@@ -859,17 +861,24 @@ a:hover {
   text-transform: uppercase;
 }
 
-.comp-table-header.c-blue {
+.comp-table-header.c-blue,
+.w-col-stack table tbody tr td strong {
   color: #1247b3;
 }
 
-.comp-table-header.c-blue.second {
-  margin-top: 20px;
-  padding-top: 15px;
-  border-top: 1px solid rgba(18, 71, 179, .25);
+.comp-table-header.c-blue.second,
+.w-col-stack table tbody tr:first-child {
+  background-color: #eff3fc;
 }
 
-.tag-yes {
+.comp-table-header.c-blue.second,
+.w-col-stack table tbody tr td strong {
+  margin-top: 20px;
+  padding-top: 15px;
+}
+
+.tag-yes,
+.w-col-stack table tbody tr td code {
   display: inline-block;
   padding-right: 6px;
   padding-left: 6px;
@@ -879,8 +888,18 @@ a:hover {
   font-weight: 700;
 }
 
-.dark-p {
+.w-col-stack table tbody tr {
+  border-bottom: 1px solid #bebebe;
+}
+
+.w-col-stack table tbody tr:last-child {
+  border-bottom: none;
+}
+
+.dark-p,
+.w-col-stack table tbody tr td {
   color: #111;
+  padding: 15px 0;
 }
 
 .dark-p.muted {

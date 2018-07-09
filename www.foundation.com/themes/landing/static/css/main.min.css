@@ -12095,7 +12095,8 @@ input[type=checkbox].toggle:checked+label:after {
     position: fixed;
     top: 0;
     right: 0;
-    left: 0
+    left: 0;
+    z-index: 9999
 }
 
 .layout-header.layout-header-fixed~.layout-content {

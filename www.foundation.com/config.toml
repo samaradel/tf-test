@@ -176,3 +176,9 @@ paginate = 6
 [params.video]
     enable = true
     url = "https://www.youtube.com/embed/fucXM2L2cTA"
+
+[blackfriday]
+  angledQuotes = true
+  extensions = ["hardLineBreak"]
+  fractions = false
+  plainIDAnchors = true

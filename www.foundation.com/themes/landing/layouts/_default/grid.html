@@ -257,7 +257,7 @@
         <h2>
           <strong>Step 3: </strong>
           <span class="title-blue">
-            <strong>Connect and Farm Tokens</strong>
+            <strong>{{ .Params.step_3_title }}</strong>
           </span>
         </h2>
       </div>
@@ -269,36 +269,25 @@
         <p>
           <strong class="bold-text">Co-op Farmer
             <br>
-          </strong>Relax, sit back and collect tokens
+          </strong>{{ .Params.step_3_coop_Farmer }}
           <br>
         </p>
         <p>
           <strong class="bold-text">Individual Farmer
             <br>
-          </strong>Connect to Power
-          <br>Connect to Internet
-          <br>Create your Farm
-          <br>Collect your tokens
+          </strong>{{ .Params.step_3_individual_Farmer }}
           <br>
         </p>
         <p>
           <strong class="bold-text">DIY Farmer
             <br>
-          </strong>Connect to Power
-          <br>Connect to Internet
-          <br>Download Zero-OS
-          <br>Create your Farm
-          <br>Collect your tokens
-          <br>
-        </p>
-        <a href="https://threefoldfoundation.github.io/info_grid/#/tf_farming/farming_setup" class="github-instruction w-inline-block">
-          <img src="svg/ic-github.svg" class="gh-icon">
-          <p class="paragraph">Read more detailed Instruction</p>
+          </strong>{{ .Params.step_3_DIY_Farmer }}</p>
+        <a href="{{ .Params.step_3_read_more }}" class="github-instruction w-inline-block">
+          <p class="paragraph">{{ .Params.step_3_read_more }}</p>
         </a>
       </div>
       <div class="w-col w-col-7">
-        <img src="img/connection-illustration.png" srcset="img/connection-illustration-p-500.png 500w, img/connection-illustration.png 1139w"
-          sizes="(max-width: 479px) 90vw, (max-width: 767px) 92vw, (max-width: 991px) 54vw, 57vw" class="connect-scheme">
+        <img src="{{ .Params.step_3_img }}" class="connect-scheme">
       </div>
     </div>
   </div>
@@ -307,14 +296,14 @@
   <div class="container-wide">
     <div class="w-row">
       <div class="w-col w-col-8 w-col-stack">
-        <h2>Cost and Return Overview by&nbsp;Engagement Model</h2>
+        <h2>{{ .Params.model_title }}</h2>
       </div>
       <div class="w-hidden-medium w-hidden-small w-hidden-tiny w-col w-col-4 w-col-stack"></div>
     </div>
     <div class="row-hidden w-hidden-small w-hidden-tiny w-row">
       <div class="w-hidden-medium w-hidden-small w-hidden-tiny w-col w-col-1 w-col-stack"></div>
-      <div class="w-col w-col-11 w-col-stack">
-        <div class="coop-diy-comp-row w-row">
+      <div class="w-col w-col-11 w-col-stack"> {{ .Content }}
+        <!-- <div class="coop-diy-comp-row w-row">
           <div class="w-col w-col-3 w-col-small-3"></div>
           <div class="w-col w-col-3 w-col-small-3">
             <p class="comp-table-header">Co-op Farmer</p>
@@ -484,7 +473,7 @@
         </div>
         <p class="footnote">* ThreeFold Foundation
           <br>
-        </p>
+        </p> -->
       </div>
     </div>
     <div class="cost-details-sm w-hidden-main w-hidden-medium">
@@ -632,9 +621,9 @@
     <div class="w-row">
       <div class="w-col w-col-8 w-col-stack">
         <h2>
-          <strong>The Two Ways Farmers can earn ThreeFold Tokens&nbsp;</strong>
+          <strong>{{ .Params.earnTF }}</strong>
           <span>
-            <strong class="em-supscript b-em">TFTs</strong>
+            <strong class="em-supscript b-em">{{ .Params.warnTF_supscript }}</strong>
           </span>
         </h2>
       </div>
@@ -645,42 +634,38 @@
       <div class="earn-tokens-col-md w-col w-col-5 w-col-medium-5 w-col-small-small-stack">
         <p class="num-p">1</p>
         <h3 class="step-title f-title c-blue">Farming</h3>
-        <p class="intro-p-dark">Farmers earn TFTs for connecting their capacity to the TF grid</p>
+        <p class="intro-p-dark">{{ .Params.farming }}</p>
         <p>
-          <strong>TFTs awarded for connecting a farm are calculated at the time the capacity is assigned to the TF Grid. The farmer
-            receives 1/60th of these tokens for a maximum of 60 months.</strong>
+          <strong>{{ .Params.farming_desc_1 }}</strong>
         </p>
-        <p>Amount of TFTs awarded is based on the monthly capacity revenue value in USD, and the price of the TFT at the time
-          the capacity is assigned to the grid.</p>
+        <p>{{ .Params.farming_desc_2 }}</p>
       </div>
       <div class="w-hidden-medium w-hidden-small w-hidden-tiny w-col w-col-1 w-col-medium-1 w-col-small-small-stack"></div>
       <div class="earn-tokens-col-md w-col w-col-4 w-col-medium-4 w-col-small-small-stack">
         <p class="num-p">2</p>
         <h3 class="step-title f-title c-blue">Cultivating</h3>
-        <p class="intro-p-dark">Farmers earn TFTs when capacity is sold</p>
+        <p class="intro-p-dark">{{ .Params.cultivating }}</p>
         <p>
-          <strong>Capacity is sold via the ThreeFold Directory, a blockchain based capacity listing system.</strong>
+          <strong>{{ .Params.cultivating_desc }}</strong>
         </p>
         <h3 class="text-blue">ThreeFold Directory </h3>
         <div class="list-item-w">
-          <p>Fully decentralized.</p>
+          <p>{{ .Params.tf_directory }}</p>
           <div class="list-item-l"></div>
         </div>
         <div class="list-item-w">
-          <p>All capacity listed so users can choose their farm or location.</p>
+          <p>{{ .Params.tf_directory_desc }}</p>
           <div class="list-item-l"></div>
         </div>
         <div class="list-item-w">
-          <p>Tokens come directly to the Farmer.</p>
+          <p>{{ .Params.tf_directory_desc_2 }}</p>
           <div class="list-item-l"></div>
         </div>
-        <p>ThreeFold Foundation charges 10% of these tokens as a&nbsp;revenue sharing for IT development and marketing.
-          <strong>&nbsp;</strong>
-        </p>
+        <p>{{ .Params.tf_directory_desc_3 }}</p>
       </div>
       <div class="w-hidden-medium w-hidden-small w-hidden-tiny w-col w-col-1 w-col-medium-1 w-col-small-small-stack"></div>
     </div>
-    <img src="svg/ic-00-token-big.svg" class="token-bg w-hidden-tiny">
+    <img src="{{ .Params.tf_token_img }}" class="token-bg w-hidden-tiny">
   </div>
 </div>
 <div class="community-section">
@@ -688,7 +673,7 @@
     <div class="w-row">
       <div class="w-col w-col-10">
         <h2>
-          <strong>Join our growing global farmer community</strong>
+          <strong>{{ .Params.community_title }}</strong>
         </h2>
       </div>
       <div class="w-hidden-medium w-hidden-small w-hidden-tiny w-col w-col-2"></div>
@@ -697,12 +682,11 @@
       <div class="w-hidden-medium w-hidden-small w-hidden-tiny w-col w-col-1"></div>
       <div class="w-col w-col-10">
         <div class="team-card">
-          <img src="img/heat-map.png" srcset="img/heat-map-p-500.png 500w, img/heat-map.png 1740w" sizes="(max-width: 479px) 90vw, (max-width: 767px) 92vw, (max-width: 991px) 78vw, 82vw">
+          <img src="{{ .Params.community_map }}">
         </div>
       </div>
       <div class="w-hidden-medium w-hidden-small w-hidden-tiny w-col w-col-1"></div>
     </div>
   </div>
 </div>
-
 </div>

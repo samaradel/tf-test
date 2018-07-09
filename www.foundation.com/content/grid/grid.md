@@ -71,4 +71,52 @@ node_price = "up to 36 878 TFTs"
 node_connectivity = "Works on 200 mbit/s office\nor datacenter links"
 
 note = "Please keep in mind that the amount of estimated Tokens will be different if you go Individual Farmer orDIY due to additional fees, charged by the cooperative."
+
+# Step 3 Sec.
+step_3_title = "Connect and Farm Tokens"
+step_3_coop_Farmer = "Relax, sit back and collect tokens"
+step_3_individual_Farmer = "Connect to Power\n Connect to Internet\n Create your Farm\n Collect your tokens"
+step_3_DIY_Farmer = "Connect to Power\nConnect to Internet\nDownload Zero-OS\nCreate your Farm\nCollect your tokens"
+step_3_read_more_url = "https://threefoldfoundation.github.io/info_grid/#/tf_farming/farming_setup"
+step_3_read_more = "Read more detailed Instruction"
+step_3_img = "/img/connection-illustration.png"
+
+# Cost Sec.
+model_title = "Cost and Return Overview by Engagement Model"
+
+# Earn Tokens
+earnTF = "The Two Ways Farmers can earn ThreeFold Tokens"
+warnTF_supscript = "TFTs"
+
+farming = "Farmers earn TFTs for connecting their capacity to the TF grid"
+farming_desc_1 = "TFTs awarded for connecting a farm are calculated at the time the capacity is assigned to the TF Grid. The farmer receives 1/60th of these tokens for a maximum of 60 months."
+farming_desc_2 = "Amount of TFTs awarded is based on the monthly capacity revenue value in USD, and the price of the TFT at the time the capacity is assigned to the grid."
+
+cultivating = "Farmers earn TFTs when capacity is sold"
+cultivating_desc = "Capacity is sold via the ThreeFold Directory, a blockchain based capacity listing system."
+
+tf_directory = "Fully decentralized."
+tf_directory_desc = "All capacity listed so users can choose their farm or location."
+tf_directory_desc_2 = "Tokens come directly to the Farmer."
+tf_directory_desc_3 = "ThreeFold Foundation charges 10% of these tokens as a&nbsp;revenue sharing for IT development and marketing."
+tf_token_img = "/svg/ic-00-token-big.svg"
+
+# Community Sec.
+community_title = "Join our growing global farmer community"
+community_map = "/img/heat-map.png"
 +++
+
+|                                    | CO-OP FARMER     | INDIVIDUAL FARMER | DIY FARMER    |
+| ----------------------------------:|:----------------:| -----------------:| -------------:|
+| **HARDWARE**                                                                              |
+| Source hardware                    | Co-op            | Co-op             | Anywhere      |
+| Setup                              | 30% (of Hardware)| 30% (of Hardware) | 0%            |
+| Installation (Physical + Software) | `Included`       | `Included`        | Self Provided |
+| Datacenter Space                   | `Included`       | Self Provided     | Self Provided |
+| Power                              | `Included`       | Self Provided     | Self Provided |
+| Internet Connectivity              | `Included`       | Self Provided     | Self Provided |
+|  **RULES**                                                                                |
+| *Rule Category*                    | Certified Unmanaged          | Certified Unmanaged             | Unmanaged     |
+| Farming Tokens: earned for being connected to the grid              | Monthly 1/60th of the TFTs at time capacity is assigned, for max 60 months | Monthly 1/60th of the TFTs at time capacity is assigned, for max 60 months | 1/60th of the TFTs at time capacity is assigned, for max 60 months, after 30% of the capacity is sold |
+| Cultivation Tokens: earned through capacity sales | 10% to Co-op / 10% to TFF* of Tokens for capacity sold | 10% to TFF* of Tokens for capacity sold | 10% to TFF* of Tokens for capacity sold |
+| * *ThreeFold Foundation*  | 

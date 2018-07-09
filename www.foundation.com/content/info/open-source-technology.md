@@ -76,28 +76,4 @@ see https://github.com/zero-os
 ITSYOU.ONLINE
 Need a neutral identity management system? No hacking or compromising: e.g. Blockchain proof-of-work
 
-features:
 
-Peer-to-Peer Distributed
-Blockchain Protected
-.. to be completed
-https://github.com/itsyouonline
-
-RELATED NEWS
-JUNE 8, 2018 ∙
-The need for a new, green utility digital currency
-JUNE 8, 2018 ∙
-AirBnB for Internet Capacity
-THREEFOLD WHITEPAPER
-This new Whitepaper introduces two new Research breakthroughs
-
-JOIN US
-telegram
-twitter
-youtube
-linkedin
-facebook
-github
-
-THREEFOLD WHITEPAPER
-This new Whitepaper introduces two new Research breakthroughs
